@@ -2,7 +2,7 @@
 
 ### Only work in <a href="https://www.up-manga.com/">up-manga.com</a>
 
-> make sure u copy url & paste in URL variable also name the directory to save the image
+> make sure u copy url & paste in ```URL``` variable also name the directory to save the image
 
 ```python
 URL = "https://www.up-manga.com/jujutsu-kaisen-ep-119/" # HERE FOR URL
