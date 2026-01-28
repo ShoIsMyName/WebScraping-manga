@@ -1,6 +1,6 @@
 # Usage
 
-### Only work in 
+### Only work in these website 👇
 - <a href="https://www.up-manga.com/">up-manga.com</a>
 - <a href="https://www.slow-manga.com/">slow-manga.com</a>
 
