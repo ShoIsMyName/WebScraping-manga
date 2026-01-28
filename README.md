@@ -1,6 +1,6 @@
 # Usage
 
-### Only work in <a href="https://www.up-manga.com/">up-manga.com</a>
+### Only work in <a href="https://www.up-manga.com/">up-manga.com</a> <a href="https://www.slow-manga.com/">slow-manga.com</a>
 
 > make sure u copy url & paste in ```URL``` variable also name the directory to save the image
 
