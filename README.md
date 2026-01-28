@@ -1,4 +1,4 @@
-> important: We do not support illegal manga reading. The content we have created is for educational purposes only, and we oppose profiting from pirated content and violating copyright and artist credit.
+> We do not support illegal manga reading. The content we have created is for educational purposes only. 
 
 # Usage
 
