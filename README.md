@@ -43,4 +43,4 @@ C:\Users\thiss\Desktop\WebScrapingManga>python main.py
 
 ## Result
 
-<img src="">
+<img src="https://github.com/ShoIsMyName/WebScraping-manga/blob/main/result.png?raw=truet">
