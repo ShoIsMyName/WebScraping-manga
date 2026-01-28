@@ -1,6 +1,9 @@
+> important: We do not support illegal manga reading. The content we have created is for educational purposes only, and we oppose profiting from pirated content and violating copyright and artist credit.
+
 # Usage
 
 ### Only work in these website 👇
+
 - <a href="https://www.up-manga.com/">up-manga.com</a>
 - <a href="https://www.slow-manga.com/">slow-manga.com</a>
 
