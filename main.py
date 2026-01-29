@@ -3,8 +3,8 @@ import re
 import json
 import os
 
-# URL = "https://www.tanuki-manga.com/lupin-the-third-28/"
-# SAVE_DIR = "images4"
+URL = "https://www.tanuki-manga.com/lupin-the-third-28/"
+SAVE_DIR = "images4"
 HEADERS = {
     "User-Agent": "Mozilla/5.0",
     "Referer": "https://www.up-manga.com/"
@@ -96,21 +96,21 @@ def download_images(images: list[str], SAVE_DIR):
 
 
 def main():
-    for i in range(108,226):
-        URL = f"https://www.tanuki-manga.com/chainsaw-man-{i+1}/"
-        SAVE_DIR = f"Chapter-{i+1}"
+    URL = f"https://www.tanuki-manga.com/chainsaw-man-{i+1}/"
+    SAVE_DIR = f"Chapter-{i+1}"
 
-        print("[*] Loading website")
-        html = requests.get(URL, headers=HEADERS).text
+    print("[*] Loading website")
+    html = requests.get(URL, headers=HEADERS).text
 
-        print("[*] Export image list from ts_reader")
-        images = get_images_from_ts_reader(html)
+    print("[*] Export image list from ts_reader")
+    images = get_images_from_ts_reader(html)
 
-        print(f"[+] Image founded: {len(images)}")
-        download_images(images, SAVE_DIR)
+    print(f"[+] Image founded: {len(images)}")
+    download_images(images, SAVE_DIR)
 
-        print("[✓] Successfully")
+    print("[✓] Successfully")
 
 
 if __name__ == "__main__":
     main()
+
