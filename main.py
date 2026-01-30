@@ -96,9 +96,6 @@ def download_images(images: list[str], SAVE_DIR):
 
 
 def main():
-    URL = f"https://www.tanuki-manga.com/chainsaw-man-{i+1}/"
-    SAVE_DIR = f"Chapter-{i+1}"
-
     print("[*] Loading website")
     html = requests.get(URL, headers=HEADERS).text
 
@@ -113,4 +110,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
